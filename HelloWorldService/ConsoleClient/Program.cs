@@ -27,6 +27,7 @@ namespace ConsoleClient
             Console.WriteLine("Client Send the message "+ userName.Fname + " "+ userName.Lname);
             Console.WriteLine("Client received Following Message from Service" + client.HelloWorld(userName));
             Console.ReadLine();
+            Console.Read();
 
         }
     }
