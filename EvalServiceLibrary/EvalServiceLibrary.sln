@@ -3,6 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 11
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalServiceLibrary", "EvalServiceLibrary\EvalServiceLibrary.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHost", "ConsoleHost\ConsoleHost.csproj", "{E614B27D-82BC-4D17-A522-F0E729AA1B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{E792776E-D59C-4CC7-94EB-0E7B9C280C80}"
+	ProjectSection(ProjectDependencies) = postProject
+		{15B3E0D2-6217-493A-A690-158C497F5318} = {15B3E0D2-6217-493A-A690-158C497F5318}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Bank", "http://localhost:5541", "{DDB64FC9-1586-422D-A198-2D514629C77A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Visual Studio 11\WebSites\Bank\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5541\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5541"
+		DefaultWebSiteLanguage = "Visual Basic"
+		Release.AspNetCompiler.Debug = "False"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Visual Studio 11\WebSites\Bank\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5541\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5541"
+		SlnRelativePath = "..\..\..\Visual Studio 11\WebSites\Bank\"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		UseIISExpress = "true"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +42,18 @@ Global
 		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB64FC9-1586-422D-A198-2D514629C77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB64FC9-1586-422D-A198-2D514629C77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB64FC9-1586-422D-A198-2D514629C77A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB64FC9-1586-422D-A198-2D514629C77A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E614B27D-82BC-4D17-A522-F0E729AA1B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E614B27D-82BC-4D17-A522-F0E729AA1B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E614B27D-82BC-4D17-A522-F0E729AA1B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E614B27D-82BC-4D17-A522-F0E729AA1B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E792776E-D59C-4CC7-94EB-0E7B9C280C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E792776E-D59C-4CC7-94EB-0E7B9C280C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E792776E-D59C-4CC7-94EB-0E7B9C280C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E792776E-D59C-4CC7-94EB-0E7B9C280C80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
