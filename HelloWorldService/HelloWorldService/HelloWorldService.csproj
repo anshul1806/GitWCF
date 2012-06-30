@@ -44,8 +44,8 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld.cs" />
-    <Compile Include="IHelloService.cs" />
+    <Compile Include="EvalsService.cs" />
+    <Compile Include="IEval.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

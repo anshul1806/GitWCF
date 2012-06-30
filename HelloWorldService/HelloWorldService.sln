@@ -8,16 +8,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleCli
 		{15B3E0D2-6217-493A-A690-158C497F5318} = {15B3E0D2-6217-493A-A690-158C497F5318}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalServiceHost", "EvalServiceHost\EvalServiceHost.csproj", "{0C3F8E1A-C97A-446C-B76E-3D002D685FCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCHost", "MVCHost\MVCHost.csproj", "{18C19979-5A0F-4B23-B3D7-1157F01DFC65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C3F8E1A-C97A-446C-B76E-3D002D685FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3F8E1A-C97A-446C-B76E-3D002D685FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3F8E1A-C97A-446C-B76E-3D002D685FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3F8E1A-C97A-446C-B76E-3D002D685FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C19979-5A0F-4B23-B3D7-1157F01DFC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C19979-5A0F-4B23-B3D7-1157F01DFC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C19979-5A0F-4B23-B3D7-1157F01DFC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C19979-5A0F-4B23-B3D7-1157F01DFC65}.Release|Any CPU.Build.0 = Release|Any CPU
 		{21078979-3602-4BC3-B76B-A8DCCB877BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{21078979-3602-4BC3-B76B-A8DCCB877BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21078979-3602-4BC3-B76B-A8DCCB877BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU

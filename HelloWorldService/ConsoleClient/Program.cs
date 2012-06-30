@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ConsoleClient.HelloWorldClientReference;
+
 
 
 
@@ -20,14 +20,14 @@ namespace ConsoleClient
 
          static void Main(string[] args)
         {
-            HelloServiceClient client = new HelloServiceClient("WSHttpBinding_IHelloService");
-            HelloData userName = new HelloData();
-            userName.Fname = "Anshul";
-            userName.Lname = "Pandey";
-            Console.WriteLine("Client Send the message "+ userName.Fname + " "+ userName.Lname);
-            Console.WriteLine("Client received Following Message from Service" + client.HelloWorld(userName));
-            Console.ReadLine();
-            Console.Read();
+            //HelloServiceClient client = new HelloServiceClient("WSHttpBinding_IHelloService");
+            //HelloData userName = new HelloData();
+            //userName.Fname = "Anshul";
+            //userName.Lname = "Pandey";
+            //Console.WriteLine("Client Send the message "+ userName.Fname + " "+ userName.Lname);
+            //Console.WriteLine("Client received Following Message from Service" + client.HelloWorld(userName));
+            //Console.ReadLine();
+            //Console.Read();
 
         }
     }
